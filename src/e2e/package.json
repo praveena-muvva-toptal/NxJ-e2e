@@ -1,0 +1,30 @@
+{
+  "name": "nextjump-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.ts",
+    "lint": "eslint **/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^7.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "@wdio/cli": "^7.19.7",
+    "@wdio/local-runner": "^7.5.5",
+    "@wdio/mocha-framework": "^7.5.3",
+    "@wdio/spec-reporter": "^7.5.3",
+    "chromedriver": "^90.0.0",
+    "eslint": "^7.26.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
