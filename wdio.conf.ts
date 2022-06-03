@@ -2,8 +2,10 @@ exports.config = {
     runner: 'local',
     specs: [
         [
-            './tests/login-page.spec.ts'
-            // './tests/home-page.spec.ts'
+            './tests/login-page.spec.ts',
+            './tests/home-page.spec.ts',
+            './tests/stores/lenovo-store.spec.ts',
+            './tests/categories/**.spec.ts'
         ],
     ],
     maxInstances: 2,
@@ -19,7 +21,7 @@ exports.config = {
     connectionRetryCount: 3,
     // services: ['chromedriver'],
     services: [
-        [{ drivers: { chrome: '101.0.4951.64' } }]
+       [{ drivers: { chrome: '101.0.4951.64' } }]
     ],
     framework: 'mocha',
     specFileRetries: 2,

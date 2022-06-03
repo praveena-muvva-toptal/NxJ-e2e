@@ -1,3 +1,4 @@
+
 export default class BasePage {
   // Base class contianing all the common methods and page elements which can be re-used across the modules
   public url!: string;
@@ -14,10 +15,12 @@ export default class BasePage {
   }
 
   async waitForInvisibility(element: WebdriverIO.Element) {
-      await (await element).waitForDisplayed({timeout: 60000, reverse: true});
+    await (await element).waitForDisplayed({reverse:true, timeout: 60000})
+      // await (await element).waitForExist({timeout: 60000, reverse: true});
   }
 
   async waitForIsClickable(element: WebdriverIO.Element) {
     await (await element).waitForClickable({timeout: 60000});
   }
+
 }
