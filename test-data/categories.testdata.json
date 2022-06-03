@@ -1,0 +1,152 @@
+{
+    "US": {
+        "travel": {
+            "name": "Travel",
+            "nav": "home"
+        },
+        "electronics": {
+            "name": "Electronics",
+            "nav": "home"
+        },
+        "flowers": {
+            "name": "Flowers",
+            "nav": "home"
+        },
+        "home": {
+            "name": "Home",
+            "nav": "home"
+        },
+        "auto": {
+            "name": "Auto",
+            "nav": "home"
+        },
+        "food": {
+            "name": "Food",
+            "nav": "home"
+        },
+        "apparel": {
+            "name": "Apparel",
+            "nav": "home"
+        },
+        "employeePricing": {
+            "name": "Employee Pricing",
+            "nav": "home"
+        },
+        "exclusives": {
+            "name": "Exclusives",
+            "nav": "home"
+        },
+        "beautyFragrance": {
+            "name": "Beauty & Fragrance",
+            "nav": "more"
+        },
+        "books": {
+            "name": "Books & DVDs",
+            "nav": "more"
+        },
+        "cellPhones": {
+            "name": "Cell Phones",
+            "nav": "more"
+        },
+        "computers": {
+            "name": "Computers & Software",
+            "nav": "more"
+        },
+        "drugstore": {
+            "name": "Drugstore",
+            "nav": "more"
+        },
+        "eating": {
+            "name": "Eating",
+            "nav": "more"
+        },
+        "familyAndBenefits": {
+            "name": "Family and Benefits",
+            "nav": "more"
+        },
+        "greenShop": {
+            "name": "Green Shop",
+            "nav": "more"
+        },
+        "homeServices": {
+            "name": "Home Services",
+            "nav": "more"
+        },
+        "jewelry": {
+            "name": "Jewelry",
+            "nav": "more"
+        },
+        "learningAndDevelopment": {
+            "name": "Learning & Development",
+            "nav": "more"
+        },
+        "localOffers": {
+            "name": "Local Offers",
+            "nav": "more"
+        },
+        "movieTickets": {
+            "name": "Movie Tickets",
+            "nav": "more"
+        },
+        "pets": {
+            "name": "Pets",
+            "nav": "more"
+        },
+        "physicalWellbeing": {
+            "name": "Physical Wellbeing",
+            "nav": "more"
+        },
+        "sportsAndOutdoors": {
+            "name": "Sports & Outdoors",
+            "nav": "more"
+        },
+        "taxes": {
+            "name": "Taxes",
+            "nav": "more"
+        },
+        "tickets": {
+            "name": "Tickets",
+            "nav": "more"
+        },
+        "workFromHome": {
+            "name": "Work From Home",
+            "nav": "more"
+        },
+        "newBrands": {
+            "name": "New Brands",
+            "nav": "more"
+        },
+        "allCategories": {
+            "name": "All Categories",
+            "nav": "more"
+        },
+        "segmentDashboard": {
+            "name": "Segment Dashboard",
+            "nav": "more"
+        },
+        "liveProductFeed": {
+            "name": "Live Product Feed",
+            "nav": "more"
+        },
+        "topProductGuide": {
+            "name": "Top 10 Product Guide",
+            "nav": "more"
+        },
+        "publicSales": {
+            "name": "Public Sales",
+            "nav": "more"
+        },
+        "subsidy": {
+            "name": "Subsidy",
+            "nav": "more"
+        },
+        "womenOwnedBusiness": {
+            "name": "Women-owned Business Collection",
+            "nav": "more"
+        },
+        "sustainabilityCollection": {
+            "name": "Sustainability Collection",
+            "nav": "more"
+        }
+    }
+}

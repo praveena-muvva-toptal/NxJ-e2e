@@ -17,8 +17,6 @@ class LoginPage extends BasePage {
     get inputEmail() { return $('#login-email'); }
     get inputPassword() { return $('#login-password'); }
     get btnSubmit() { return $('#submitButton'); }
-    get logoutDropdown() { return $('.user-options'); }
-    get logoutIcon() { return $('.ic-power.icon'); }
 
     /**
      * a method to encapsule automation code to interact with the page
@@ -28,18 +26,10 @@ class LoginPage extends BasePage {
         await (await this.loginFormButton).click();
         await (await this.inputEmail).setValue(username);
         await (await this.inputPassword).setValue(password);
-        await browser.pause(2000);
+        await browser.pause(5000); // There is a chane to reduce the occurance of captcha with increased wait time
         await (await this.btnSubmit).click();
         await browser.pause(2000);
 
-    }
-    
-    async logout() {
-        await browser.pause(3000);
-        await (await this.logoutDropdown).click();
-        await this.waitForIsClickable(await this.logoutIcon);
-        await (await this.logoutIcon).click();
-        await browser.pause(5000);
     }
 }
 
